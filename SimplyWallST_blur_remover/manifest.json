@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "SimplyWallSt Unblocker",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://simplywall.st/*"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

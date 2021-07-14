@@ -1,0 +1,4 @@
+#root {
+  				filter: url(#blur-filter)!important;
+  				filter: blur(0px) !important; 
+          }
